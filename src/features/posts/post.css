@@ -1,0 +1,16 @@
+.post-screen{
+    min-height: 100vh;
+    background-color: grey;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
