@@ -49,7 +49,7 @@ function PostList() {
       return (
         <article key={post.id}>
           <h3>{post.author}</h3>
-          <p>{post.content.substring(0, 40)}</p>
+          <p>{post.body.substring(0, 40)}</p>
         </article>
       );
     });
